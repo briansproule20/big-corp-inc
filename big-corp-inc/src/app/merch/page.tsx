@@ -114,7 +114,7 @@ export default function MerchPage() {
             </p>
             <p className="text-gray-700 text-sm">
               <a
-                href="https://shirt-slop.myshopify.com"
+                href="https://www.shirtslop.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium hover:text-black transition-colors underline"
