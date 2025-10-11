@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Menu, Home, Sparkles, ShoppingBag } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -16,6 +17,7 @@ import { EchoAccount } from '@/components/echo-account-next';
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   const navItems = [
     { name: 'Home', href: '/', icon: Home },
@@ -45,7 +47,7 @@ export function SiteHeader() {
 
           {/* Right side: Account + Hamburger Menu */}
           <div className="flex items-center gap-3">
-            <EchoAccount />
+            {pathname === '/image-gen' && <EchoAccount />}
 
             {/* Hamburger Menu Sheet */}
             <Sheet open={open} onOpenChange={setOpen}>
