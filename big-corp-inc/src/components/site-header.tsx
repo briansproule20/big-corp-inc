@@ -50,16 +50,18 @@ export function SiteHeader() {
             {pathname === '/image-gen' && <EchoAccount />}
 
             {/* Shopping Bag Button */}
-            <Link href="/merch">
-              <Button
-                variant="ghost"
-                size="icon"
-                className="hover:bg-gray-100"
-                aria-label="Corporate Branded Solutions"
-              >
-                <ShoppingBag className="h-5 w-5" />
-              </Button>
-            </Link>
+            {pathname !== '/merch' && (
+              <Link href="/merch">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="hover:bg-gray-100"
+                  aria-label="Corporate Branded Solutions"
+                >
+                  <ShoppingBag className="h-5 w-5" />
+                </Button>
+              </Link>
+            )}
 
             {/* Hamburger Menu Sheet */}
             <Sheet open={open} onOpenChange={setOpen}>
