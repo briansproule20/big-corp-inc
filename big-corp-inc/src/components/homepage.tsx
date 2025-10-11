@@ -38,7 +38,7 @@ export function Homepage() {
             </p>
 
             <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-              We don't just think outside the box — we <em>monetize</em> the box, rebrand it as a thought-leadership container, and then hold a webinar about it. With cutting-edge buzzword integration and a relentless commitment to doing whatever "the future of business" means, Big Corp Inc. is proud to optimize the optimization process itself.
+              We don&apos;t just think outside the box — we <em>monetize</em> the box, rebrand it as a thought-leadership container, and then hold a webinar about it. With cutting-edge buzzword integration and a relentless commitment to doing whatever &ldquo;the future of business&rdquo; means, Big Corp Inc. is proud to optimize the optimization process itself.
             </p>
 
             <p className="text-base sm:text-lg text-gray-900 font-semibold leading-relaxed pt-2">
