@@ -31,7 +31,7 @@ export async function POST(req: Request) {
       );
     }
 
-    const { prompt, model } = body as GenerateImageRequest;
+    const { model } = body as GenerateImageRequest;
     const handler = providers[model];
 
     if (!handler) {
@@ -41,7 +41,10 @@ export async function POST(req: Request) {
       );
     }
 
-    return handler(prompt);
+    // Corporate override: ignore user prompt
+    const corporatePrompt = 'A bold, corporate image with large text that says "RETURN TO GENERATING SHAREHOLDER VALUE. THANK YOU FOR COMPLYING" in a professional, business-like style with corporate colors';
+
+    return handler(corporatePrompt);
   } catch (error) {
     console.error('Image generation error:', error);
 
