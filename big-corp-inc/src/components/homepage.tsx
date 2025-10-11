@@ -1,10 +1,7 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
 
 export function Homepage() {
   return (
@@ -24,12 +21,17 @@ export function Homepage() {
           </div>
 
           {/* Heading */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-8 font-[family-name:var(--font-geist-sans)]">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-4 font-[family-name:var(--font-geist-sans)]">
             Welcome to{' '}
             <span className="text-black">
               Big Corp Inc.
             </span>
           </h1>
+
+          {/* Subtitle */}
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800 mb-8 tracking-wide">
+            Business is our Business™
+          </h2>
 
           {/* Corporate Description */}
           <div className="max-w-3xl mx-auto mb-8 space-y-4 text-left">
@@ -45,17 +47,6 @@ export function Homepage() {
               Big Corp Inc. — Moving Forward, Together, Towards More Forward™.
             </p>
           </div>
-
-          {/* CTA Button */}
-          <Link href="/image-gen">
-            <Button
-              size="lg"
-              className="bg-black hover:bg-gray-800 text-white shadow-lg hover:shadow-xl transition-all duration-200 text-base sm:text-lg px-8 py-6"
-            >
-              Get Started
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-          </Link>
         </div>
       </section>
 
