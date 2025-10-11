@@ -57,6 +57,20 @@ const products = [
     description: 'For executives who are definitely regarded as something by someone. Celebrates middle management\'s ability to monetize ambiguity and delegate accountability downward.',
     tagline: 'Highly regarded, minimally responsible.',
   },
+  {
+    title: 'Human Capital Development',
+    url: 'https://shirt-slop.myshopify.com/products/bigcorpinc-human-capital',
+    image: 'https://shirt-slop.myshopify.com/cdn/shop/files/6661416232437834519_2048.jpg?v=1760225755',
+    description: 'Executive leadership presents key growth metrics to our newest stakeholders. Starting workforce development early ensures maximum long-term ROI. Never too young to understand the importance of quarterly projections.',
+    tagline: 'Cultivating corporate culture from cradle to cubicle.',
+  },
+  {
+    title: 'Policy Alignment Program',
+    url: 'https://shirt-slop.myshopify.com/products/policy-alignment-program',
+    image: 'https://shirt-slop.myshopify.com/cdn/shop/files/16296429325244774247_2048.jpg?v=1760226460',
+    description: 'Strategic partnerships between industry and government to accelerate outcomes and eliminate unnecessary oversight. Where executives and legislators align through the universal language of contribution.',
+    tagline: 'Democracy works best when properly incentivized.',
+  },
 ];
 
 export default function MerchPage() {
