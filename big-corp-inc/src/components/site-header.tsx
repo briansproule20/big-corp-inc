@@ -72,10 +72,10 @@ export function SiteHeader() {
                         key={item.href}
                         href={item.href}
                         onClick={() => setOpen(false)}
-                        className="flex items-center gap-3 text-sm font-medium text-gray-900 hover:text-black transition-colors py-3 px-4 rounded-lg hover:bg-gray-100"
+                        className="flex items-start gap-3 text-sm font-medium text-gray-900 hover:text-black transition-colors py-3 px-4 rounded-lg hover:bg-gray-100"
                       >
-                        <Icon className="h-5 w-5 flex-shrink-0" />
-                        <span className="whitespace-nowrap">{item.name}</span>
+                        <Icon className="h-5 w-5 flex-shrink-0 mt-0.5" />
+                        <span className="leading-tight">{item.name}</span>
                       </Link>
                     );
                   })}
