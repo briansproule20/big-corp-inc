@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Menu, Home, Sparkles } from 'lucide-react';
+import { Menu, Home, Sparkles, ShoppingBag } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   Sheet,
@@ -20,6 +20,7 @@ export function SiteHeader() {
   const navItems = [
     { name: 'Home', href: '/', icon: Home },
     { name: 'Visual Asset Optimization Portal™', href: '/image-gen', icon: Sparkles },
+    { name: 'Corporate Branded Solutions', href: '/merch', icon: ShoppingBag },
   ];
 
   return (
