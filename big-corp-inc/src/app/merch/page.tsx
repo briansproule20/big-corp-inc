@@ -19,8 +19,8 @@ const products = [
     title: 'Big Corp Inc. 1',
     url: 'https://shirt-slop.myshopify.com/products/bigcorpinc-1?variant=42357554970698',
     image: 'https://shirt-slop.myshopify.com/cdn/shop/files/17635737147735785828_2048.jpg?v=1754196613',
-    description: 'Version 1.0 of our commitment to vertical integration of brand awareness. Wear it to signal your dedication to moving things forward while standing completely still.',
-    tagline: 'Iterating on indifference since inception.',
+    description: 'Official Big Corp Inc. branded merchandise. Demonstrate your unwavering commitment to Moving Forward, Together, Towards More Forward™.',
+    tagline: 'A testament to leveraging synergy in your daily wardrobe.',
   },
   {
     title: 'Big Corp 2',
