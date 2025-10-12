@@ -5,14 +5,19 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const catchphrases = [
   'Optimizing the Optimization of Optimized Outcomes',
-  'Localizing Globalization. Globalizing Localization.',
-  'Synergizing Synergy Through Strategic Synergy',
-  'Disrupting Disruption Disruptively',
-  'Scaling Scalability at Scale',
-  'Pivoting Pivots Pivot-First',
-  'Innovating Innovation Innovatively',
-  'Leveraging Leverage to Leverage More Leverage',
   'Please Do Not Unionize',
+  'Localizing Globalization. Globalizing Localization.',
+  'Your Feedback Has Been Noted',
+  'Synergizing Synergy Through Strategic Synergy',
+  'We\'re All Family Here',
+  'Disrupting Disruption Disruptively',
+  'Work-Life Integration, Not Balance',
+  'Scaling Scalability at Scale',
+  'Empowering Synergy Through Destruction',
+  'Innovating Innovation Innovatively',
+  'Unlimited PTO (Usage Discouraged)',
+  'Leveraging Leverage to Leverage More Leverage',
+  'Redefining the Definition of Redefining',
 ];
 
 export function CorporateCatchphrases() {
@@ -27,26 +32,19 @@ export function CorporateCatchphrases() {
   }, []);
 
   return (
-    <div className="w-full max-w-4xl mx-auto px-4 py-8">
-      <div className="relative h-32 sm:h-24 flex items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-gradient-to-br from-gray-50 via-white to-gray-50 shadow-sm">
-        {/* Background gradient effect */}
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-100/50 to-transparent opacity-50" />
-        
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={currentIndex}
-            initial={{ opacity: 0, y: 20, filter: 'blur(10px)' }}
-            animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
-            exit={{ opacity: 0, y: -20, filter: 'blur(10px)' }}
-            transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="absolute inset-0 flex items-center justify-center px-8"
-          >
-            <p className="text-xl sm:text-2xl md:text-3xl font-bold text-center text-gray-900 tracking-tight font-[family-name:var(--font-geist-sans)]">
-              {catchphrases[currentIndex]}
-            </p>
-          </motion.div>
-        </AnimatePresence>
-      </div>
+    <div className="relative min-h-16 sm:min-h-12 flex items-center justify-center mb-8 px-4">
+      <AnimatePresence mode="wait">
+        <motion.p
+          key={currentIndex}
+          initial={{ opacity: 0, y: 10, filter: 'blur(8px)' }}
+          animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+          exit={{ opacity: 0, y: -10, filter: 'blur(8px)' }}
+          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+          className="text-lg sm:text-xl md:text-2xl font-medium text-center text-gray-600 italic tracking-wide font-[family-name:var(--font-geist-sans)]"
+        >
+          {catchphrases[currentIndex]}
+        </motion.p>
+      </AnimatePresence>
     </div>
   );
 }

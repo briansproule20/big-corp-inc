@@ -30,9 +30,12 @@ export function Homepage() {
           </h1>
 
           {/* Subtitle */}
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800 mb-8 tracking-wide">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800 mb-4 tracking-wide">
             Business is our Business™
           </h2>
+
+          {/* Animated Catchphrases */}
+          <CorporateCatchphrases />
 
           {/* Corporate Description */}
           <div className="max-w-3xl mx-auto mb-8 space-y-4 text-left">
@@ -48,9 +51,6 @@ export function Homepage() {
               Big Corp Inc. — Moving Forward, Together, Towards More Forward™.
             </p>
           </div>
-
-          {/* Animated Catchphrases */}
-          <CorporateCatchphrases />
         </div>
       </section>
 
