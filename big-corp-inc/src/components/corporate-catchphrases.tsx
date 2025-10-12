@@ -13,6 +13,7 @@ const catchphrases = [
   'Disrupting Disruption Disruptively',
   'Work-Life Integration, Not Balance',
   'Scaling Scalability at Scale',
+  'Deliverables Delivered',
   'Empowering Synergy Through Destruction',
   'Innovating Innovation Innovatively',
   'Unlimited PTO (Usage Discouraged)',
