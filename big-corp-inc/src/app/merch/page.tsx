@@ -71,6 +71,27 @@ const products = [
     description: 'Strategic partnerships between industry and government to accelerate outcomes and eliminate unnecessary oversight. Where executives and legislators align through the universal language of contribution.',
     tagline: 'Democracy works best when properly incentivized.',
   },
+  {
+    title: 'Pizza Party',
+    url: 'https://shirt-slop.myshopify.com/products/pizza-party',
+    image: 'https://shirt-slop.myshopify.com/cdn/shop/files/7090708865150342402_2048.jpg?v=1760294525',
+    description: 'Because nothing says "we value you" like lukewarm pizza instead of cost-of-living adjustments. Celebrate record profits and executive bonuses with mandatory fun and congealed cheese. At least pretend to smile.',
+    tagline: 'Compensation is a state of mind.',
+  },
+  {
+    title: 'Child Labor',
+    url: 'https://shirt-slop.myshopify.com/products/child-labor',
+    image: 'https://shirt-slop.myshopify.com/cdn/shop/files/8721774278281734154_2048.jpg?v=1760294724',
+    description: 'Our overseas manufacturing partnerships leverage emerging market efficiencies and flexible labor regulations. Building tomorrow\'s workforce today through hands-on textile education programs. Cost savings passed directly to shareholders.',
+    tagline: 'Age is just a compliance issue.',
+  },
+  {
+    title: 'Vertical Integration',
+    url: 'https://shirt-slop.myshopify.com/products/bci-vertical-integration?variant=42620907356234',
+    image: 'https://shirt-slop.myshopify.com/cdn/shop/files/12939621402132432772_2048.jpg?v=1760295986',
+    description: 'Ecosystem disruption as a core competency. Senior leadership takes direct control of raw material acquisition, transforming centuries-old rainforest into quarterly revenue streams. Ancient biodiversity makes way for scalable supply chains and measurable KPIs.',
+    tagline: 'Natural resources exist to be resourced.',
+  },
 ];
 
 export default function MerchPage() {
