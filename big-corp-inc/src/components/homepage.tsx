@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { CorporateCatchphrases } from '@/components/corporate-catchphrases';
 
 export function Homepage() {
   return (
@@ -47,6 +48,9 @@ export function Homepage() {
               Big Corp Inc. — Moving Forward, Together, Towards More Forward™.
             </p>
           </div>
+
+          {/* Animated Catchphrases */}
+          <CorporateCatchphrases />
         </div>
       </section>
 

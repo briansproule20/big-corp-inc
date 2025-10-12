@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(pnpm install:*)",
-      "Bash(pnpm dev:*)"
+      "Bash(pnpm dev:*)",
+      "Bash(git restore:*)",
+      "WebFetch(domain:shirt-slop.myshopify.com)"
     ],
     "deny": [],
     "ask": []
