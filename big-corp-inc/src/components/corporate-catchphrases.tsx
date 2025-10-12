@@ -12,6 +12,7 @@ const catchphrases = [
   'Pivoting Pivots Pivot-First',
   'Innovating Innovation Innovatively',
   'Leveraging Leverage to Leverage More Leverage',
+  'Please Do Not Unionize',
 ];
 
 export function CorporateCatchphrases() {
@@ -45,21 +46,6 @@ export function CorporateCatchphrases() {
             </p>
           </motion.div>
         </AnimatePresence>
-
-        {/* Progress indicator */}
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-1.5">
-          {catchphrases.map((_, index) => (
-            <motion.div
-              key={index}
-              className="h-1.5 rounded-full bg-gray-300"
-              animate={{
-                width: index === currentIndex ? 24 : 6,
-                backgroundColor: index === currentIndex ? '#000' : '#d1d5db',
-              }}
-              transition={{ duration: 0.3 }}
-            />
-          ))}
-        </div>
       </div>
     </div>
   );
