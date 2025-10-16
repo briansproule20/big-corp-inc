@@ -92,6 +92,13 @@ const products = [
     description: 'Ecosystem disruption as a core competency. Senior leadership takes direct control of raw material acquisition, transforming centuries-old rainforest into quarterly revenue streams. Ancient biodiversity makes way for scalable supply chains and measurable KPIs.',
     tagline: 'Natural resources exist to be resourced.',
   },
+  {
+    title: 'A Dream of Fresh Air',
+    url: 'https://shirt-slop.myshopify.com/products/a-dream-of-fresh-air?variant=42633427648586',
+    image: 'https://shirt-slop.myshopify.com/cdn/shop/files/4991526156948961956_2048.jpg?v=1760642979',
+    description: 'Our extractive industries apprenticeship program provides hands-on career development in emerging markets. Small hands, big opportunities. Combining practical skills training with cost-effective resource extraction since regulatory oversight became optional.',
+    tagline: 'Mining the talent pool at the source.',
+  },
 ];
 
 export default function MerchPage() {
