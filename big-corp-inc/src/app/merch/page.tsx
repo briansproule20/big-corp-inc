@@ -106,6 +106,13 @@ const products = [
     description: 'Annual networking symposium celebrating independent thinking and diverse perspectives. Where visionaries congregate to disrupt conventional wisdom and collectively rubber-stamp whatever consulting recommended. Professional development through mandatory mingling.',
     tagline: 'Individual achievement through collective conformity.',
   },
+  {
+    title: 'Vice President Edition',
+    url: 'https://shirt-slop.myshopify.com/products/new-hire?variant=42633474474058',
+    image: 'https://shirt-slop.myshopify.com/cdn/shop/files/9534618549805846335_2048.jpg?v=1760645371',
+    description: 'Premium business card presentation featuring raised lettering, subtle off-white coloring, and tasteful thickness. The pinnacle of corporate identity design that inspires both admiration and quiet desperation in peers. Perfect for networking events where status is measured in card stock weight.',
+    tagline: 'The art of professional envy.',
+  },
 ];
 
 export default function MerchPage() {
