@@ -51,10 +51,10 @@ const products = [
     tagline: 'Manifest destiny, corporate edition.',
   },
   {
-    title: 'Chief Regarded Officer',
+    title: 'Executive Distinction',
     url: 'https://shirt-slop.myshopify.com/products/chief-regarded-officer?variant=42619489550410',
     image: 'https://shirt-slop.myshopify.com/cdn/shop/files/8609451216515052618_2048.jpg?v=1760212363',
-    description: 'For executives who are definitely regarded as something by someone. Celebrates middle management\'s ability to monetize ambiguity and delegate accountability downward.',
+    description: 'For executives who are definitely regarded as something by someone. Celebrates middle management\'s ability to monetize ambiguity and delegate accountability downward. Reserved exclusively for C-suite professionals.',
     tagline: 'Highly regarded, minimally responsible.',
   },
   {
@@ -131,7 +131,7 @@ export default function MerchPage() {
                 href={product.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-200"
+                className="group bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-200 flex flex-col"
               >
                 <div className="aspect-square relative bg-gray-100">
                   <Image
@@ -141,11 +141,11 @@ export default function MerchPage() {
                     className="object-cover group-hover:scale-105 transition-transform duration-200"
                   />
                 </div>
-                <div className="p-4">
+                <div className="p-4 flex flex-col flex-grow">
                   <h2 className="text-lg font-bold text-gray-900 mb-2 font-[family-name:var(--font-geist-sans)]">
                     {product.title}
                   </h2>
-                  <p className="text-sm text-gray-700 mb-2 leading-relaxed">
+                  <p className="text-sm text-gray-700 mb-2 leading-relaxed flex-grow">
                     {product.description}
                   </p>
                   <p className="text-xs text-gray-600 italic">
