@@ -72,14 +72,14 @@ const products = [
     tagline: 'Democracy works best when properly incentivized.',
   },
   {
-    title: 'Pizza Party',
+    title: 'Employee Appreciation Initiative',
     url: 'https://shirt-slop.myshopify.com/products/pizza-party',
     image: 'https://shirt-slop.myshopify.com/cdn/shop/files/7090708865150342402_2048.jpg?v=1760294525',
     description: 'Because nothing says "we value you" like lukewarm pizza instead of cost-of-living adjustments. Celebrate record profits and executive bonuses with mandatory fun and congealed cheese. At least pretend to smile.',
     tagline: 'Compensation is a state of mind.',
   },
   {
-    title: 'Child Labor',
+    title: 'Global Workforce Development',
     url: 'https://shirt-slop.myshopify.com/products/child-labor',
     image: 'https://shirt-slop.myshopify.com/cdn/shop/files/8721774278281734154_2048.jpg?v=1760294724',
     description: 'Our overseas manufacturing partnerships leverage emerging market efficiencies and flexible labor regulations. Building tomorrow\'s workforce today through hands-on textile education programs. Cost savings passed directly to shareholders.',
