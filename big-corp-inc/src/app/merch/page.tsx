@@ -113,6 +113,27 @@ const products = [
     description: 'Premium business card presentation featuring raised lettering, subtle off-white coloring, and tasteful thickness. The pinnacle of corporate identity design that inspires both admiration and quiet desperation in peers. Perfect for networking events where status is measured in card stock weight.',
     tagline: 'The art of professional envy.',
   },
+  {
+    title: 'Corporate Sisyphus',
+    url: 'https://shirt-slop.myshopify.com/products/corporate-sisyphus?variant=42635886559306',
+    image: 'https://shirt-slop.myshopify.com/cdn/shop/files/6092247279832140197_2048.jpg?v=1760718884',
+    description: 'The ultimate expression of corporate futility. Perfect for middle management who have mastered the art of pushing impossible projects uphill only to watch them roll back down. When quarterly goals meet eternal punishment, this collection captures the essence of modern corporate existence.',
+    tagline: 'Excellence through endless uphill struggle.',
+  },
+  {
+    title: 'Animal Testing',
+    url: 'https://shirt-slop.myshopify.com/products/animal-testing?variant=42635907301450',
+    image: 'https://shirt-slop.myshopify.com/cdn/shop/files/13019103495285864921_2048.jpg?v=1760720159',
+    description: 'Our research division proudly leverages your beloved golden retriever as a trusted test subject in pursuit of product excellence. After all, who better to suffer for innovation than those who can\'t unionize? We call it compassion at scale.',
+    tagline: 'Restraining empathy, unleashing returns.',
+  },
+  {
+    title: 'Toxic Industry',
+    url: 'https://shirt-slop.myshopify.com/products/toxic-industry?variant=42635982110794',
+    image: 'https://shirt-slop.myshopify.com/cdn/shop/files/4808094178880104735_2048.jpg?v=1760723900',
+    description: 'Celebrating our commitment to operational efficiency and environmental optimization. When productivity meets progress, the results are visible for miles. Perfect for stakeholders who appreciate the visible impact of industrial innovation and the transformative power of manufacturing excellence.',
+    tagline: 'Progress has a distinctive industrial aroma.',
+  },
 ];
 
 export default function MerchPage() {
