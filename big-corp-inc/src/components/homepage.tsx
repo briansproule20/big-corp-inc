@@ -40,11 +40,11 @@ export function Homepage() {
           {/* Corporate Description */}
           <div className="max-w-3xl mx-auto mb-8 space-y-4 text-left">
             <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-              At Big Corp Inc., we specialize in <strong>leveraging synergy to synergize leverage</strong>. Through a robust ecosystem of scalable paradigms, we empower dynamic deliverables that redefine the definition of redefining things. Our cross-functional innovation matrix ensures stakeholders remain aligned with our alignment strategy, maximizing holistic outcomes across all verticals — especially the vertical ones.
+              At Big Corp Inc., we leverage synergy to synergize leverage. Our scalable paradigms deliver dynamic deliverables that redefine redefining itself. Through cross-functional alignment matrices, we ensure stakeholders remain aligned with our alignment strategy—maximizing holistic outcomes across all verticals, especially the vertical ones.
             </p>
 
             <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-              We don&apos;t just think outside the box — we <em>monetize</em> the box, rebrand it as a thought-leadership container, and then hold a webinar about it. With cutting-edge buzzword integration and a relentless commitment to doing whatever &ldquo;the future of business&rdquo; means, Big Corp Inc. is proud to optimize the optimization process itself.
+              We don&apos;t just think outside the box—we monetize it, rebrand it as a thought-leadership container, and charge you for the webinar. With cutting-edge buzzword integration and a relentless commitment to whatever &ldquo;the future of business&rdquo; means this quarter, Big Corp Inc. optimizes the optimization process itself.
             </p>
 
             <p className="text-base sm:text-lg text-gray-900 font-semibold leading-relaxed pt-2">
