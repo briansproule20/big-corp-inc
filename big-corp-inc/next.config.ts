@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
         hostname: 'shirt-slop.myshopify.com',
         pathname: '/cdn/shop/files/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'cdn.shopify.com',
+        pathname: '/s/files/**',
+      },
     ],
   },
 };

@@ -134,6 +134,27 @@ const products = [
     description: 'Celebrating our commitment to operational efficiency and environmental optimization. When productivity meets progress, the results are visible for miles. Perfect for stakeholders who appreciate the visible impact of industrial innovation and the transformative power of manufacturing excellence.',
     tagline: 'Progress has a distinctive industrial aroma.',
   },
+  {
+    title: 'Executive Refreshment',
+    url: 'https://shirt-slop.myshopify.com/products/cups-of-the-rose?variant=42711981326410',
+    image: 'https://cdn.shopify.com/s/files/1/0659/4464/9802/files/15846569511256509042_2048.jpg?v=1762573403',
+    description: 'Victory tastes sophisticated. Senior leadership demonstrates proper celebration protocol following successful market capture operations. Premium beverages and curated imagery are standard issue for executives who crush quarterly objectives. Remember: profitability is best photographed, not shared.',
+    tagline: 'Success is a beverage best served chilled.',
+  },
+  {
+    title: 'Conglomerate Consolidation',
+    url: 'https://shirt-slop.myshopify.com/products/corporate-efficiency?variant=42717903159370',
+    image: 'https://cdn.shopify.com/s/files/1/0659/4464/9802/files/9477760327642636117_2048.jpg?v=1762799747',
+    description: 'The skyline belongs to Big Corp Inc. Strategic real estate domination through aggressive acquisition campaigns. When mom-and-pop shops fold, The Conglomerate expands. Every displaced small business is a victory for efficiency. Every annexed property brings us closer to total market supremacy.',
+    tagline: 'Building empires, one hostile takeover at a time.',
+  },
+  {
+    title: 'Tariff Enforcement Initiative',
+    url: 'https://shirt-slop.myshopify.com/products/america-first?variant=42718907826250',
+    image: 'https://cdn.shopify.com/s/files/1/0659/4464/9802/files/13216439049440020797_2048.jpg?v=1762821872',
+    description: 'Protecting free trade from holiday threats. Executive leadership deploys strategic tariff strikes against North Pole operations threatening domestic toy manufacturers. 100% import duties ensure gift-based economies learn to respect American business interests. No magical workshop is above regulation.',
+    tagline: 'Even Santa answers to the bottom line.',
+  },
 ];
 
 export default function MerchPage() {
