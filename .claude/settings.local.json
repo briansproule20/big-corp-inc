@@ -9,7 +9,10 @@
       "Bash(curl -s \"https://yzg3cc-vz.myshopify.com/products/child-labor\")",
       "WebFetch(domain:yzg3cc-vz.myshopify.com)",
       "Bash(curl -s \"https://shirt-slop.myshopify.com/products/child-labor\")",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(cd:*)",
+      "WebFetch(domain:echo.merit.systems)"
     ],
     "deny": [],
     "ask": []

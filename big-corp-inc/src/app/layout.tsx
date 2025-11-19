@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Big Corp Inc',
-  description: 'Moving Forward, Together, Towards More Forward™.',
+  description: 'Moving Forward, Together, Towards More Forward™',
   icons: {
     icon: [{ url: '/BigCorpInc Favicon.png', type: 'image/png' }],
     shortcut: '/BigCorpInc Favicon.png',
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Big Corp Inc',
-    description: 'Moving Forward, Together, Towards More Forward™.',
+    description: 'Moving Forward, Together, Towards More Forward™',
     images: ['/BigCorpInc Favicon.png'],
     siteName: 'Big Corp Inc',
   },
   twitter: {
     card: 'summary',
     title: 'Big Corp Inc',
-    description: 'Moving Forward, Together, Towards More Forward™.',
+    description: 'Moving Forward, Together, Towards More Forward™',
     images: ['/BigCorpInc Favicon.png'],
   },
 };

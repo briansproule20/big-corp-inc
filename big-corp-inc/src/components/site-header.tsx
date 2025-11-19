@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, Home, Sparkles, ShoppingBag } from 'lucide-react';
+import { Menu, Home, Sparkles, ShoppingBag, MessageSquare } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   Sheet,
@@ -23,6 +23,7 @@ export function SiteHeader() {
     { name: 'Home', href: '/', icon: Home },
     { name: 'Visual Asset Optimization Portal™', href: '/image-gen', icon: Sparkles },
     { name: 'Corporate Branded Solutions', href: '/merch', icon: ShoppingBag },
+    { name: 'Corporate Jargon Solutions', href: '/jargon', icon: MessageSquare },
   ];
 
   return (
@@ -47,7 +48,7 @@ export function SiteHeader() {
 
           {/* Right side: Account + Shopping Bag + Hamburger Menu */}
           <div className="flex items-center gap-3">
-            {pathname === '/image-gen' && <EchoAccount />}
+            {(pathname === '/image-gen' || pathname === '/jargon') && <EchoAccount />}
 
             {/* Shopping Bag Button */}
             {pathname !== '/merch' && (

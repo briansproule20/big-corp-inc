@@ -7,7 +7,7 @@
 
 import { isSignedIn } from '@/echo';
 import ImageGenerator from '@/components/image-generator';
-import { EchoSignIn } from '@merit-systems/echo-next-sdk/client';
+import { ImageGenSignIn } from '@/components/image-gen-signin';
 
 export default async function ImageGenPage() {
   // Check authentication status using Echo SDK
@@ -32,7 +32,7 @@ export default async function ImageGenPage() {
         {/* Overlay when not signed in */}
         {!_isSignedIn && (
           <div className="absolute inset-0 backdrop-blur-[2px] bg-white/30 flex items-center justify-center rounded-xl border border-gray-300">
-            <EchoSignIn />
+            <ImageGenSignIn />
           </div>
         )}
       </div>
