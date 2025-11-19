@@ -115,9 +115,9 @@ export function JargonChat() {
             <div className="mt-6 text-sm text-gray-500 space-y-2">
               <p className="font-medium">Sample inefficiencies to optimize:</p>
               <ul className="space-y-1 text-left">
-                <li>"We need to have a meeting"</li>
-                <li>"The project is delayed"</li>
-                <li>"I don't understand this"</li>
+                <li>&ldquo;We need to have a meeting&rdquo;</li>
+                <li>&ldquo;The project is delayed&rdquo;</li>
+                <li>&ldquo;I don&apos;t understand this&rdquo;</li>
               </ul>
             </div>
           </div>
