@@ -110,10 +110,10 @@ export function JargonChat() {
               Welcome to Corporate Jargon Solutions
             </h2>
             <p className="text-gray-600 max-w-md">
-              Transform ordinary language into synergistic corporate communications. Simply describe your situation, and receive optimized jargon-enhanced alternatives.
+              Why say something clearly when you could leverage our AI-driven linguistic optimization framework to synergize your communication strategy? Simply input pedestrian thoughts and watch them transform into enterprise-grade verbal architecture that says absolutely nothing with maximum efficiency.
             </p>
             <div className="mt-6 text-sm text-gray-500 space-y-2">
-              <p className="font-medium">Try asking:</p>
+              <p className="font-medium">Sample inefficiencies to optimize:</p>
               <ul className="space-y-1 text-left">
                 <li>"We need to have a meeting"</li>
                 <li>"The project is delayed"</li>
