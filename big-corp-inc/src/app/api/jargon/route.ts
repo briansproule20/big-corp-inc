@@ -55,7 +55,6 @@ export async function POST(req: NextRequest) {
           content: message,
         },
       ],
-      maxTokens: 500,
     });
 
     // Return streaming response
