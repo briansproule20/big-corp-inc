@@ -106,19 +106,19 @@ export function JargonChat() {
         {messages.length === 0 ? (
           <div className="flex flex-col items-center justify-center h-full text-center px-4 py-12">
             <Sparkles className="h-12 w-12 text-gray-400 mb-4" />
-            <h2 className="text-xl font-semibold text-gray-900 mb-2 font-[family-name:var(--font-geist-sans)]">
-              Welcome to Corporate Jargon Solutions
+            <h2 className="text-2xl font-bold text-gray-900 mb-3 font-[family-name:var(--font-geist-sans)]">
+              Corporate Jargon Solutions™
             </h2>
-            <p className="text-gray-600 max-w-md">
-              Why say something clearly when you could leverage our AI-driven linguistic optimization framework to synergize your communication strategy? Simply input pedestrian thoughts and watch them transform into enterprise-grade verbal architecture that says absolutely nothing with maximum efficiency.
+            <p className="text-gray-600 max-w-lg text-base leading-relaxed mb-8">
+              Transform pedestrian language into enterprise-grade verbal architecture that says absolutely nothing with maximum efficiency.
             </p>
-            <div className="mt-6 text-sm text-gray-500 space-y-2">
-              <p className="font-medium">Sample inefficiencies to optimize:</p>
-              <ul className="space-y-1 text-left">
-                <li>&ldquo;We need to have a meeting&rdquo;</li>
-                <li>&ldquo;The project is delayed&rdquo;</li>
-                <li>&ldquo;I don&apos;t understand this&rdquo;</li>
-              </ul>
+            <div className="text-sm text-gray-500">
+              <p className="font-medium mb-2">Try:</p>
+              <div className="space-y-1.5 text-gray-400">
+                <p>&ldquo;We need to have a meeting&rdquo;</p>
+                <p>&ldquo;The project is delayed&rdquo;</p>
+                <p>&ldquo;I don&apos;t understand this&rdquo;</p>
+              </div>
             </div>
           </div>
         ) : (
